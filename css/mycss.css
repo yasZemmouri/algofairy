@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    /* Colors */
+    --color-primary: #D93433;
+    --color-secondary: #BF16CB;
+    --color-accent: #2CF0F1;
+    /* use 333 as default if no value entered */
+    --color-txt: #333;
+    /* Font */
+    --font-header: "Lato", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    /*Dimensions*/
+    /* use 70 as default if no value entered */
+    --height-nav: 70px;
+}
+
+/*------- General ------*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--color-default);
+    font-family: var(--font-body);
+    /* font-size: 1.6em; */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* why do I need this container?  */
+.container-small {
+    max-width: 610px;
+    height: 100%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    height: var(--height-nav);
+    background-color: var(--color-primary);
+    position: fixed;
+    inset: 0;
+    color: white;
+}
+
+.container-xl {
+    height: 100%;
+}
+
+nav ul {
+    /*those should be permanent*/
+    /* margin: 0; */
+    /* padding: 0; */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*end permanent*/
+    justify-content: space-between;
+}
+
+nav ul li {
+    width: 105px;
+    text-align: center;
+}
+
+nav ul li:first-child {
+    text-align: left;
+}
+
+nav ul li:last-child {
+    text-align: right;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: var(--color-accent);
+}
