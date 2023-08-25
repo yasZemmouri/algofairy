@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/style.css">
+<title>AlgoFAIRY</title>
+<!-- TemplateParam name="classActive" type="boolean" value="true" -->
+</head>
+
+<body>
+	<header>
+        <nav class="container">
+            <ul class="container-small">
+                <li><a href="index.html" ><!-- TemplateBeginEditable name="activeClass" --><!-- TemplateEndEditable -->HOME</a></li>
+                <li><!-- TemplateBeginIf cond="_document['classActive']" --><!-- TemplateBeginEditable name="EditRegion2" --><a href="about.html" class="active">ABOUT</a><!-- TemplateEndEditable --><!-- TemplateEndIf --></li>
+                <li><a href="contact.html" class="nav-lets-talk">let's talk</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="plans">plans</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+  <div class="header-spacer"></div>
+  <!-- TemplateBeginEditable name="mainContent" -->mainContent<!-- TemplateEndEditable -->
+</main><!-- #BeginLibraryItem "/Library/Footer.lbi" --> <footer>
+        <!-- Social Linkos -->
+        <div class="social">
+            <div class="container">
+                <a class="icon-social" href="https://facebook.com" target="_blank">
+                    <img src="../images/icon-face.png" alt="facebook outline icon" class="icon-original">
+                    <img src="../images/icon-face-hover.png" alt="facebook filled icon" class="icon-hover">
+                </a>
+                <a class="icon-social" href="https://twitter.com" target="_blank">
+                    <img src="../images/icon-twitter.png" alt="twitter outline icon" class="icon-original">
+                    <img src="../images/icon-twitter-hover.png" alt="twitter filled icon" class="icon-hover">
+                </a>
+                <a class="icon-social" href="https://youtube.com" target="_blank">
+                    <img src="../images/icon-youtube.png" alt="youtube outline icon" class="icon-original">
+                    <img src="../images/icon-youtube-hover.png" alt="youtube filled icon" class="icon-hover">
+                </a>
+            </div>
+        </div>
+        <!-- Footer Bar -->
+        <div id="footer-bar">
+            <div class="container">
+                <div class="column">
+                    <h2>Algo<span>FAIRY</span></h2>
+                    <p>129-456-7890</p>
+                    <p>1 Main Street</p>
+                    <p>Boston, MA, 02123</p>
+                </div>
+                <div class="column">
+                    <h2>Useful Links</h2>
+                    <p><a href="../index.html">home</a></p>
+                    <p><a href="../about.html">About us</a></p>
+                    <p><a href="../contact.html">contact us</a></p>
+                </div>
+                <div class="column">
+                    <p><a href="../plans.html">plans</a></p>
+                    <p><a href="../projects.html">projects</a></p>
+					<p><a href="../career.html">career</a></p>
+                </div>
+                <!-- <p><a href="career.html">plans</a></p> -->
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container"> &copy;2023 AlgoFAIRY, LLC. All Rights Reserved </div>
+			<script src="../Library/js/main.js"></script>
+        </footer>
+    </footer><!-- #EndLibraryItem --></body>
+
+</html>

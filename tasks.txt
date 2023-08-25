@@ -1,0 +1,23 @@
+change cards title colors
+fill footer bar
+add a section to about
+code about 
+submit about
+change titles
+use variables for colors and heigh, and anything
+add hover effect for footer bar links
+add a button effect for get in touch about button
+add google analytics to technologies
+
+---------------------------------------------------------------
+controle margin and paddings by moving objects with the mouse.
+use the svg image and place it
+add more pages:
+careers
+add why choose us?
+add pricing in plans
+---------------------------------
+add an animation to the get in touch button on about
+add one to send on let's talk
+-----------------------------------------
+automate 
